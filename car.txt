@@ -1,0 +1,20 @@
+CARS
+
+matricola- INT - PRIMARY_KEY(NOTNULL, UNIQUE)
+casa_produttrice- VARCHAR(30) - NOTNULL
+modello - VARCHAR(13) - NOTNULL 
+potenza - INT - NOTNULL
+cilindrata - INT - NOTNULL
+trazione - VARCHAR(15)- NOTNULL
+cambio - VARCHAR(20) - NOTNULL
+descrizione - TEXT - NOTNULL
+anno di produzione - YEAR - NOTNULL
+colore - VARCHAR(20) NULL
+optionals - VARCHAR(200) - NULL
+esemplari - INT - NULL
+prezzo - DECIMAL(8, 2) - NOTNULL
+image - VARCHAR(255) - NOTNULL - DEFAULT("/img/src/default.jpg")
+paese_produttrice - VARCHAR(2) - NOTNULL
+misura_ruote -SMALLINT - NULL
+peso - INT - NULL
+is_bestseller - TINYINT - NOTNULL - DEFAULT(0)
